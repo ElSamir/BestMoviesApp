@@ -38,6 +38,8 @@ function App() {
     return (
         <div>
             <header>
+        <button onClick={() => window.location.reload('true')} >Inicio</button>
+         
                 <form onSubmit={handleOnSubmit}>
                     <input
                         className="search"
